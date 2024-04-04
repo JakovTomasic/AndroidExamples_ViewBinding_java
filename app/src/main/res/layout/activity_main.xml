@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnFind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find (Activity)"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btnBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind (Activity)"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btnFragmentFind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find (Fragment)"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btnFragmentBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind (Fragment)"
+        android:layout_marginBottom="48dp" />
+
+</LinearLayout>
